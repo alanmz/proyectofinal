@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Proceso donde se corrige el color para la impresi\u00f3n.",
+        "Proceso en el que la prensa imprime sobre papel.",
+        "Proceso entre el final del dise\u00f1o y el inicio de la impresi\u00f3n."
+      ],
+      "correct": {
+        "index": 2,
+        "text": "La preprensa es parte del proceso de producci\u00f3n de un impreso, posterior al dise\u00f1o y anterior a la impresi\u00f3n, la cual se encarga de la producci\u00f3n de positivos, negativos y/o l\u00e1minas litogr\u00e1ficas."
+      },
+      "number": 7,
+      "prompt": "\u00bfCu\u00e1l es la definici\u00f3n de preprensa?"
+    },
+    {
+      "answers": [
+        "225",
+        "150",
+        "300"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 8,
+      "prompt": "\u00bfA cu\u00e1ntos puntos por pulgada DPI deben ir las im\u00e1genes fotogr\u00e1ficas de una revista?"
+    },
+    {
+      "answers": [
+        "CMYK",
+        "Escala de grises",
+        "Color Indexado"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 9,
+      "prompt": "Se imprimir\u00e1 un folleto 4X4, tama\u00f1o carta. \u00bfQu\u00e9 tipo de color se debe utilizar en la salida?"
+    },
+    {
+      "answers": [
+        "Impresi\u00f3n utilizando las tintas base: cian, magenta, amarillo y negro",
+        "Tintas barnizadas que realzan la impresi\u00f3n",
+        "Impresi\u00f3n extra utilizando un color generado en la tinta y no la combinaci\u00f3n de colores base"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "Al contrario que las tintas de cuatricrom\u00eda (colores cian, magenta, amarillo y negro), las tintas directas pueden tener cualquier color o propiedad que su fabricante dese\u00e9. Pueden ser irisadas, de color 'pistacho vivo', con cualidades met\u00e1licas (color bronce, oro viejo). Etc\u2026"
+      },
+      "number": 10,
+      "prompt": "\u00bfCu\u00e1l es el significado del t\u00e9rmino \u201ctintas directas\u201d en impresi\u00f3n?"
+    }
+  ],
+  "title": "Preprensa",
+  "url": "http://google.com/"
+}

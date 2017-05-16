@@ -1,0 +1,57 @@
+
+url: http://google.com
+
+
+#Redes
+
+
+1)  ¿Qué afirmación describe una red compatible con QoS?
+
+  
+  - Los datos enviados a través de la red no se altera en la transmisión.
+  - La menor cantidad de dispositivos posibles son afectadas por un fallo.
+  * La red proporciona niveles predecibles de servicio a los diferentes tipos de tráfico.
+  - La red debe ser capaz de expandirse para satisfacer la demanda del usuario.
+
+
+QoS refiere a la capacidad de una red de proporcionar un mejor servicio al tráfico de la red seleccionada sobre las diversas tecnologías subyacentes 
+
+
+2) ¿Que serie de dispositivos contiene sólo dispositivos intermediarios?
+   - A, B, E, F
+   * A, B, D, G
+   - G, H, I, J
+   - C, D, G, I
+
+   (image) inter.png
+
+
+
+3) ¿Qué dispositivo realiza la función de determinar el camino que deben tomar los mensajes a través de interredes?
+  - un servidor web
+  - un módem DSL
+  * un router
+  - un servidor de seguridad
+
+
+4) ¿Qué herramienta ofrece el vídeo en tiempo real y la comunicación de audio a través de Internet?
+
+   - wiki
+   - mensajería instantánea
+   - weblog
+   * TelePresence
+
+La Telepresencia es un sistema de videoconferencia más avanzado, que evita los desplazamientos innecesarios, ahorra tiempos improductivos, acelera los procesos de decisión, mejora la comunicación y reduce  las emisiones de Co2, como las que producen los desplazamientos por carretera o avión. 
+
+
+5) Exigir contraseñas fuertes y complejas es una práctica que apoya la meta de seguridad que la red?
+
+   - mantener la integridad de la comunicación
+   - redundancia que aseguran
+   * garantizar la confidencialidad de datos
+   - garantizar la fiabilidad de acceso
+
+
+
+
+

@@ -1,0 +1,27 @@
+
+url: http://google.com
+
+
+#Redes Visual
+
+
+1)  Un administrador de red ha decidido que un EtherChannel entre puertos 0/1 y 0/2 en los interruptores S1 y S2 ayudaría rendimiento. Después de realizar la configuración, el administrador observa ninguna mejora del rendimiento. Sobre la base de la salida que se muestra, ¿qué dos supuestos posible podría hacer un administrador de red?
+
+
+  - El paquete EtherChannel está trabajando.
+  * Uno de los puertos en S2 no se configuró correctamente. 
+  - l interruptor S2 debe estar configurado de manera que se aumenta el número máximo de canales de puerto.
+  (image) img/v1.jpg
+
+2) Consulte la presentación. El administrador intentó crear una EtherChannel entre S1 y los otros dos interruptores a través de los comandos que se muestran, pero no tuvo éxito. Cuál es el problema?
+  * Tráfico no puede ser enviado a dos conmutadores diferentes a través del mismo enlace EtherChannel.
+  - Tráfico sólo se puede enviar a dos conmutadores diferentes si EtherChannel se implementa en las interfaces Gigabit Ethernet.
+  (image) img/v2.jpg
+
+3) Consulte la presentación. Un EtherChannel se configuró entre los interruptores S1 y S2, pero las interfaces no forman un EtherChannel. Cuál es el problema?
+  - El número de puerto-canal de interfaz tiene que ser diferente en cada switc.
+  * El EtherChannel no se ha configurado con el mismo rango permitido de VLAN en cada interfaz.
+  - Los puertos del switc deben estar configurados como puertos de acceso con cada puerto con una VLAN
+  (image) img/v3.jpg
+
+  

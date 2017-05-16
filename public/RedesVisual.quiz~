@@ -1,0 +1,40 @@
+// example quiz text
+// @bsouthga
+// <- (this is a comment and will be ignored)
+
+// this is the url for the parent
+url: http://google.com
+
+// this is the title of the quiz
+#Redes Visual
+
+// this is an example question.
+// the number signifies the question order,
+// meaning questions can be placed in random order
+// within the file
+1) Consulte la presentación. Un administrador de red ha decidido que un EtherChannel entre puertos 0/1 y 0/2 en los interruptores S1 y S2 ayudaría rendimiento. Después de realizar la configuración, el administrador observa ninguna mejora del rendimiento. Sobre la base de la salida que se muestra, ¿qué dos supuestos posible podría hacer un administrador de red?
+
+  // these are answers, a correct answer
+  // is indicated by a "*"
+  - El paquete EtherChannel está trabajando.
+  * Uno de los puertos en S2 no se configuró correctamente. 
+  - l interruptor S2 debe estar configurado de manera que se aumenta el número máximo de canales de puerto.
+
+
+  // this is a reponse text paragraph
+  // it will be displayed upon answering
+  // the question correctly
+
+2) Consulte la presentación. El administrador intentó crear una EtherChannel entre S1 y los otros dos interruptores a través de los comandos que se muestran, pero no tuvo éxito. Cuál es el problema?
+  * Tráfico no puede ser enviado a dos conmutadores diferentes a través del mismo enlace EtherChannel.
+  - Tráfico sólo se puede enviar a dos conmutadores diferentes si EtherChannel se implementa en las interfaces Gigabit Ethernet.
+
+3) Consulte la presentación. Un EtherChannel se configuró entre los interruptores S1 y S2, pero las interfaces no forman un EtherChannel. Cuál es el problema?
+  - El número de puerto-canal de interfaz tiene que ser diferente en cada switch.
+  * El EtherChannel no se ha configurado con el mismo rango permitido de VLAN en cada interfaz.
+  - Los puertos del switch deben estar configurados como puertos de acceso con cada puerto con una VLAN
+
+  // this image will appear along with
+  // the question pompt
+  (image) unicorn.jpg
+Then, parse it into a json file using quiz_q

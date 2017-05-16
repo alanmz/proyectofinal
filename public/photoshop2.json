@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "JPEG",
+        "BMP"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 2,
+      "prompt": "Formato estandar de compresi\u00f3n con niveles de perdida de calidad?"
+    }
+  ],
+  "title": "Photoshop",
+  "url": "http://google.com"
+}

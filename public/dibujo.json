@@ -1,0 +1,18 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "La implicaci\u00f3n de fuerza a trav\u00e9s de la falta de valores tonales y la presencia de zonas claras y obscuras.",
+        "Las formas geom\u00e9tricas y estilizadas",
+        "El claroscuro y la presencia de grandes espacios blancos y negros"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 3,
+      "prompt": "\u00bfCu\u00e1l de las siguientes condiciones expresan las caracter\u00edsticas m\u00e1s importantes del alto contraste en el dibujo de figura humana?"
+    }
+  ],
+  "title": "T\u00e9cnicas de Dibujo e Ilustraci\u00f3n",
+  "url": "http://google.com/"
+}

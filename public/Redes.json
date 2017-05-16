@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Los datos enviados a trav\u00e9s de la red no se altera en la transmisi\u00f3n.",
+        "La menor cantidad de dispositivos posibles son afectadas por un fallo.",
+        "La red proporciona niveles predecibles de servicio a los diferentes tipos de tr\u00e1fico.",
+        "La red debe ser capaz de expandirse para satisfacer la demanda del usuario."
+      ],
+      "correct": {
+        "index": 2,
+        "text": "QoS refiere a la capacidad de una red de proporcionar un mejor servicio al tr\u00e1fico de la red seleccionada sobre las diversas tecnolog\u00edas subyacentes"
+      },
+      "number": 1,
+      "prompt": "\u00bfQu\u00e9 afirmaci\u00f3n describe una red compatible con QoS?"
+    },
+    {
+      "answers": [
+        "A, B, E, F",
+        "A, B, D, G",
+        "G, H, I, J",
+        "C, D, G, I"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "image": "img/inter.png",
+      "number": 2,
+      "prompt": "\u00bfQue serie de dispositivos contiene s\u00f3lo dispositivos intermediarios?"
+    },
+    {
+      "answers": [
+        "un servidor web",
+        "un m\u00f3dem DSL",
+        "un router",
+        "un servidor de seguridad"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 3,
+      "prompt": "\u00bfQu\u00e9 dispositivo realiza la funci\u00f3n de determinar el camino que deben tomar los mensajes a trav\u00e9s de interredes?"
+    },
+    {
+      "answers": [
+        "wiki",
+        "mensajer\u00eda instant\u00e1nea",
+        "weblog",
+        "TelePresence"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "La Telepresencia es un sistema de videoconferencia m\u00e1s avanzado, que evita los desplazamientos innecesarios, ahorra tiempos improductivos, acelera los procesos de decisi\u00f3n, mejora la comunicaci\u00f3n y reduce  las emisiones de Co2, como las que producen los desplazamientos por carretera o avi\u00f3n."
+      },
+      "number": 4,
+      "prompt": "\u00bfQu\u00e9 herramienta ofrece el v\u00eddeo en tiempo real y la comunicaci\u00f3n de audio a trav\u00e9s de Internet?"
+    },
+    {
+      "answers": [
+        "mantener la integridad de la comunicaci\u00f3n",
+        "redundancia que aseguran",
+        "garantizar la confidencialidad de datos",
+        "garantizar la fiabilidad de acceso"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 5,
+      "prompt": "Exigir contrase\u00f1as fuertes y complejas es una pr\u00e1ctica que apoya la meta de seguridad que la red?"
+    }
+  ],
+  "title": "Redes",
+  "url": "http://google.com"
+}

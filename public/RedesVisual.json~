@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "El paquete EtherChannel est\u00e1 trabajando.",
+        "Uno de los puertos en S2 no se configur\u00f3 correctamente.",
+        "l interruptor S2 debe estar configurado de manera que se aumenta el n\u00famero m\u00e1ximo de canales de puerto."
+      ],
+      "correct": {
+        "index": 1
+      },
+      "image": "img/v1.jpg",
+      "number": 1,
+      "prompt": "Un administrador de red ha decidido que un EtherChannel entre puertos 0/1 y 0/2 en los interruptores S1 y S2 ayudar\u00eda rendimiento. Despu\u00e9s de realizar la configuraci\u00f3n, el administrador observa ninguna mejora del rendimiento. Sobre la base de la salida que se muestra, \u00bfqu\u00e9 dos supuestos posible podr\u00eda hacer un administrador de red?"
+    },
+    {
+      "answers": [
+        "Tr\u00e1fico no puede ser enviado a dos conmutadores diferentes a trav\u00e9s del mismo enlace EtherChannel.",
+        "Tr\u00e1fico s\u00f3lo se puede enviar a dos conmutadores diferentes si EtherChannel se implementa en las interfaces Gigabit Ethernet."
+      ],
+      "correct": {
+        "index": 0
+      },
+      "image": "img/v2.jpg",
+      "number": 2,
+      "prompt": "Consulte la presentaci\u00f3n. El administrador intent\u00f3 crear una EtherChannel entre S1 y los otros dos interruptores a trav\u00e9s de los comandos que se muestran, pero no tuvo \u00e9xito. Cu\u00e1l es el problema?"
+    },
+    {
+      "answers": [
+        "El n\u00famero de puerto-canal de interfaz tiene que ser diferente en cada switc.",
+        "El EtherChannel no se ha configurado con el mismo rango permitido de VLAN en cada interfaz.",
+        "Los puertos del switc deben estar configurados como puertos de acceso con cada puerto con una VLAN"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "image": "img/v3.jpg",
+      "number": 3,
+      "prompt": "Consulte la presentaci\u00f3n. Un EtherChannel se configur\u00f3 entre los interruptores S1 y S2, pero las interfaces no forman un EtherChannel. Cu\u00e1l es el problema?"
+    }
+  ],
+  "title": "Redes Visual",
+  "url": "http://google.com"
+}

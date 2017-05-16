@@ -82,7 +82,7 @@ var $indicators = $('<ol>')
 
   $("<button>")
     .attr('class', 'quiz-button btn')
-    .text("Take the quiz!")
+    .text("Iniciar el examen!")
     .click(function() {
       $quiz.carousel('next');
       $indicators.addClass('show');
@@ -161,7 +161,7 @@ var $indicators = $('<ol>')
       var opts = {
         allowOutsideClick : false,
         allowEscapeKey : false,
-        confirmButtonText: "Next Question",
+        confirmButtonText: "SIGUIENTE PREGUNTA",
         html : true,
         confirmButtonColor: "#0096D2"
       };
@@ -170,8 +170,8 @@ var $indicators = $('<ol>')
       // answer dialogue
       if (correct) {
         opts = $.extend(opts, {
-          title: "Nice!",
-          text: "Well done" + (
+          title: "Correcto!",
+          text: "Bien hecho" + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
               question.correct.text +
@@ -181,10 +181,10 @@ var $indicators = $('<ol>')
         });
       } else {
         opts = $.extend(opts, {
-          title: "Drat",
+          title: "ERROR",
           text: (
-            "Nope, not quite right!<br/><br/>" +
-            "The correct answer was \"" +
+            "Incorecto!<br/><br/>" +
+            "La respuesta correcta era  \"" +
             question.answers[question.correct.index] + "\"." + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
@@ -197,7 +197,7 @@ var $indicators = $('<ol>')
       }
 
       if (last_question) {
-        opts.confirmButtonText = "See your results";
+        opts.confirmButtonText = "Ve tus Resultados";
       }
 
       // bind click event to answer button,
@@ -215,9 +215,9 @@ var $indicators = $('<ol>')
           if (last_question) {
             $results_title.html(resultsText(state));
             $results_ratio.text(
-              "You got " +
+              "Obtuviste " +
               Math.round(100*(state.correct/state.total)) +
-              "% of the questions correct!"
+              "% de respuestas correctas!"
             );
             $twitter_link.attr('href', tweet(state, quiz_opts));
             $facebook_link.attr('href', facebook(state, quiz_opts));
@@ -271,7 +271,7 @@ var $indicators = $('<ol>')
 
   var $social = $("<div>")
     .attr('class', 'results-social')
-    .html('<div id = "social-text">Did you like the quiz? Share your results with your friends, so they can give it a shot!</div>')
+    .html('<div id = "social-text">Comparte tu resultado en los grupos de la clase</div>')
     .appendTo($results_slide);
 
   var $twitter_link = $('<a>')
@@ -284,7 +284,7 @@ var $indicators = $('<ol>')
 
   $("<button>")
     .attr('class', 'quiz-button btn')
-    .text("Try again?")
+    .text("Volver a intentar?")
     .click(function() {
       state.correct = 0;
       $quiz.carousel(0);
@@ -309,22 +309,22 @@ function resultsText(state) {
 
   switch (true) {
     case (ratio === 1):
-      text = "Wow&mdash;perfect score!";
+      text = "Wow&mdash;Perfecto!";
       break;
     case (ratio > 0.9):
-      text = "Awesome job, you got most of them right.";
+      text = "Excelente trabajo , casi todas buenas.";
       break;
     case (ratio > 0.60):
-      text = "Pretty good, we'll say that's a pass.";
+      text = "Muy bien hecho, aprovaste el examen.";
       break;
     case (ratio > 0.5):
-      text = "Well, at least you got half of them right&hellip;";
+      text = "Al menos la mitad fueron buenas&hellip;";
       break;
     case (ratio < 0.5 && ratio !== 0):
-      text = "Looks like this was a tough one, better luck next time.";
+      text = "La mayoria de repuestas equivocadas";
       break;
     case (ratio === 0):
-      text = "Yikes, none correct. Well, maybe it was rigged?";
+      text = "Ninguna correcta vuelve a intentarlo";
       break;
   }
   return text;
